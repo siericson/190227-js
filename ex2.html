@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS example 2 | where in the doc to put script</title>
+    
+    <script>
+        // This script won't run because at this point there is no body. To resolve, move the script tag to the bottom of the page
+        var date = new Date();
+        document.body.innerHTML = '<h3>Today is ' + date + '</h3>';
+    </script>
+</head>
+<body>
+    <h1>Welcome</h1>
+</body>
+</html>
